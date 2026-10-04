@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>AI Document Assistant</title>
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>📚 Knowledge Base</h2>
+            </div>
+            <div class="upload-section">
+                <p>Upload a PDF to begin</p>
+                <input type="file" id="pdfFile" accept=".pdf" style="display: none;">
+                <label for="pdfFile" class="custom-file-upload">
+                    Choose File
+                </label>
+                <div id="fileName" class="file-name">No file selected</div>
+                <button onclick="uploadDoc()" id="processBtn" class="primary-btn">Train AI</button>
+                <div id="uploadStatus" class="status-msg"></div>
+            </div>
+        </aside>
+
+        <main class="chat-main">
+            <header class="chat-header">
+                <h1>Document Assistant</h1>
+            </header>
+            
+            <div id="chatBox" class="chat-messages">
+                <div class="message ai-message">
+                    <div class="avatar ai-avatar">AI</div>
+                    <div class="message-content">
+                        Hello! I am your AI assistant. Upload a PDF on the left, and I'll help you extract information, summarize, or answer questions about it.
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-container">
+                <div class="input-wrapper">
+                    <input type="text" id="userQuery" placeholder="Message the Document AI..." onkeypress="handleEnter(event)">
+                    <button onclick="sendQuery()" id="sendBtn" class="send-btn">
+                        ➤
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="/static/javascript.js"></script>
+</body>
+</html>
