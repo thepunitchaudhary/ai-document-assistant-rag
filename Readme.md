@@ -248,9 +248,11 @@ Docker run commands are not listed here because they depend on the Dockerfile co
 **Punit Kumar**
 MCA Graduate | Interested in AI/ML Engineering, Generative AI, Data Science, Python, RAG, and LLM Applications
 
-- GitHub: [your-github-username](https://github.com/thepuneetchaudhary)
-- LinkedIn: [your-linkedin-profile](https://www.linkedin.com/in/thepuneetchaudhary)
-- Email: punit1503ayo@gmail.com
+## 📫 Contact
+
+- **GitHub:** [thepunitchaudhary](https://github.com/thepunitchaudhary)
+- **LinkedIn:** [thepunitchaudhary](https://www.linkedin.com/in/thepunitchaudhary)
+- **Email:** [punit1503ayo@gmail.com](mailto:punit1503ayo@gmail.com)
 
 ---
 
